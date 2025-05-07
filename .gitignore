@@ -1,0 +1,9 @@
+# ansible
+ansible.cfg
+venv
+
+# vscode
+.vscode
+
+# os
+.DS_Store
