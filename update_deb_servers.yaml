@@ -1,4 +1,4 @@
-- hosts: debian_servers
+- hosts: deb_hosts
   tasks:
     - name: Update Debian hosts
       debian_update:
