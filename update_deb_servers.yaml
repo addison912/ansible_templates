@@ -1,0 +1,9 @@
+- hosts: debian_servers
+  tasks:
+    - name: Update Debian hosts
+      debian_update:
+        update_cache: true
+        debian_update: true
+        upgrade: true
+        dist_upgrade: false
+        autoremove: true
